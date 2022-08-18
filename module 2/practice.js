@@ -433,3 +433,26 @@
 // }
 
 // console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
+
+function changeEven(numbers, value) {
+  // Change code below this line
+  const newNumbers = [];
+
+  //   numbers.forEach((number) => {
+  //     if (number % 2 === 0) {
+  //       newNumbers.push(number + value);
+  //       console.log(newNumbers);
+  //     }
+  //     newNumbers.push(number);
+  //   });
+  numbers.forEach((number) => {
+    return (newNumbers =
+      number % 2 === 0
+        ? newNumbers.push(number + value)
+        : newNumbers.push(number));
+  });
+
+  // Change code above this line
+}
+
+console.log(changeEven([1, 2, 3, 4, 5], 10));
