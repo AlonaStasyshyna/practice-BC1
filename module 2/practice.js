@@ -628,3 +628,26 @@ const users = [
 
 // console.log(getUsersWithFriend(users, "Briana Decker"));
 // console.log(getUsersWithFriend(users, "Goldie Gentry"));
+
+// const getFriends = (users) => {
+//   return users
+//     .flatMap((user) => user.friends)
+//     .filter((friend, i, arr) => arr.indexOf(friend) === i);
+// };
+
+// console.log(getFriends(users));
+
+// const calculateTotalBalance = (users) => {
+//   return users.reduce((total, user) => total + user.balance, 0);
+// };
+
+// console.log(calculateTotalBalance(users));
+
+// const getTotalFriendCount = (users) => {
+//   return users.reduce(
+//     (allFriends, user) => allFriends + user.friends.length,
+//     0
+//   );
+// };
+
+// console.log(getTotalFriendCount(users));
